@@ -1,0 +1,35 @@
+{
+  "name": "cli-bramble",
+  "version": "0.0.1",
+  "description": "前端构建工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "bramble": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/runewords/cli-bramble.git"
+  },
+  "keywords": [
+    "cli",
+    "node"
+  ],
+  "author": "lhy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/runewords/cli-bramble/issues"
+  },
+  "homepage": "https://github.com/runewords/cli-bramble#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^3.0.2",
+    "download-git-repo": "^2.0.0",
+    "handlebars": "^4.4.2",
+    "inquirer": "^7.0.0",
+    "log-symbols": "^3.0.0",
+    "ora": "^4.0.1"
+  }
+}
